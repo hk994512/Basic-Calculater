@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:go_moon_app/screens/calculator_view.dart';
+import '/screens/calculator_view.dart';
 
 void main() => runApp(MaterialApp(
     debugShowCheckedModeBanner: false,
