@@ -131,19 +131,7 @@ class _CalculaterViewState extends State<CalculaterView> {
   }
 }
 
-class CustomButton extends StatelessWidget {
-  const CustomButton({super.key, required this.icon, required this.result});
-  final IconData icon;
-  final Function() result;
-  @override
-  Widget build(BuildContext context) {
-    return TextButton(
-        style: TextButton.styleFrom(
-            foregroundColor: Colors.white, backgroundColor: Colors.pink),
-        onPressed: result,
-        child: Icon(icon));
-  }
-}
+
 
 class Calculater extends StatelessWidget {
   const Calculater({super.key, required this.textOne, required this.label});
